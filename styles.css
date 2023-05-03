@@ -1,0 +1,140 @@
+body {
+    background-color: white;
+    font-family: 'Montserrat';
+}
+
+#result-summary {
+    width: 600px;
+    height: 400px;
+    background-color: white;
+    margin: 10vh auto;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: row;
+    box-shadow: 10px 25px 20px #e8ebf8;
+    border: solid 1px #fafbff;
+}
+
+
+.section {
+    width: 50%;
+    height: 100%;
+    border-radius: 25px;
+}
+
+#result {
+    background: linear-gradient(#6854f5, #403fdf);
+    text-align: center;
+    color: white;
+}
+#result h3, #result p {
+    color: lightgray;
+
+}
+#result h1 {
+    font-size: 50px;
+    padding-top: 35px;
+    margin-bottom: 0px;
+}
+#result h2 {
+    font-size: 30px;
+}
+#result > p {
+    font-size: 13px;
+    margin: -5px 35px 15px 35px;
+}
+
+#result-score {
+    margin: 15px auto;
+    width: 150px;
+    height: 150px;
+    background: linear-gradient(#4a35c3, #5148ea);
+    border-radius: 50%;
+}
+#result-score p {
+    font-size: 12px;
+}
+
+/* ............... */
+#summary {
+    padding: 25px;
+}
+.skill {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
+    font-size: 16px;
+    padding: 0 15px;
+    border-radius: 15px;
+    margin: 12px 0;
+}
+.current-score {
+    color: darkblue;
+}
+.total-score {
+    color: lightgray;
+}
+.skill img {
+    height: 15px;
+}
+.skill p {
+    padding: 0;
+}
+.skill div {
+    margin: auto 0;
+}
+
+#reaction {
+    background-color: #fcf7f6;
+    color: #dc655b;
+}
+#memory {
+    background-color: #fdfbf3;
+    color: #e9b447;
+}
+#verbal {
+    background-color: #f5fafa;
+    color: #6cb692;
+}
+#visual {
+    background-color: #f3f3fc;
+    color: #2e36cd;
+}
+
+#continue {
+    text-align: center;
+    color: white;
+    background: #353c57;
+    padding: 15px 0;
+    border-radius: 25px;
+    margin-top: 30px;
+}
+#continue:hover {
+    background: linear-gradient(#6754f4, #403fe1);
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+    body{
+        margin: 0;
+    }
+    #result-summary {
+        flex-direction: column;
+        height: auto;
+        width: 100%;
+        margin: 0;
+    }
+    #result {
+        border-top-right-radius: 0;
+        border-top-left-radius: 0;
+    }
+    .section {
+        width: auto;
+        height: auto;
+    }
+    .attribution {
+        margin-top: 30px;
+        margin-bottom: 10px;
+    }
+}
