@@ -26,7 +26,7 @@ Users should be able to:
 ### Screenshot
 
 ![](./screenshot1.jpg)
-![](./screenshot2.jpg)
+<img src="./screenshot2.jpg" width="500">
 
 
 ### Links
