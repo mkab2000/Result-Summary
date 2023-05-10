@@ -25,8 +25,12 @@ Users should be able to:
 
 ### Screenshot
 
+Desktop
 ![](./screenshot1.jpg)
-<img src="./screenshot2.jpg" width="500">
+
+Mobile
+
+<img src="./screenshot2.jpg" width="350">
 
 
 ### Links
